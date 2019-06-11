@@ -1,4 +1,4 @@
-# Various Classes for filter generation
+# Various Helper Classes for filter generation
 
 
 # =================================================================================================
@@ -90,9 +90,10 @@ class Conditions():
         :input operator: 0-5
         """
 
-
+# =================================================================================================
+# Actions
+# =================================================================================================
 class Actions():
-    def Show(self, show=true):
 
     def SetBorderColor(self, r, g, b, a=255):
         """
